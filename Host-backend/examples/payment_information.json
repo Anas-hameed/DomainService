@@ -1,0 +1,22 @@
+{
+    "billing_info": {
+        "firstName": "Gregg",
+        "lastName": "Knowall",
+        "address_1": "rue de la vigne",
+        "address_2": "",
+        "city": "Tokyo",
+        "postal_code": 444,
+        "country": "Japan",
+        "state": "Kyoto Region"
+    },
+    "payment_method": {
+        "credit_card": {
+            "cardNumber": "435452342342",
+            "expiration_month": 3,
+            "expiration_year": 2025,
+            "cvv": 400
+        },
+        "paypal_account": {}
+    }
+   
+}

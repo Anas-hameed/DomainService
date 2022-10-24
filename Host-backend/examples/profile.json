@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "user_type": "user",
+        "username": "ahmerarain",
+        "email": "ahmerahmer@gamil.com",
+        "firstName": "example",
+        "lastName": "examplename",
+        "logo": "/images/user.png",
+        "bio": "i am a developer ",
+        "url": "https://localhost",
+        "twitter_username": "ahmerarain",
+        "company": "cware tech",
+        "location": "Pakistan",
+        "current_plan": "free"
+    },
+    {
+        "id": 2,
+        "user_type": "org",
+        "username": "ahmerarainorg",
+        "email": "ahmerahmer@gamil.com",
+        "gravatar_email":"gravatar@gamil.com",
+        "billing_email":"billing@gamil.com",
+        "sponsors_email":"sponsors@gamil.com",
+
+        "firstName": "exampleorg",
+        "lastName": "examplename",
+        "logo": "/images/user.png",
+        "bio": "i am a developer ",
+        "url": "https://localhost",
+        "twitter_username": "ahmerarain",
+        "company": "cware tech",
+        "location": "Pakistan",
+        "current_plan": "free"
+    }
+]

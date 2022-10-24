@@ -1,0 +1,19 @@
+{
+    "free": [
+        "Unlimited public/private repos",
+        "Unlimited collaborators",
+        "2,000 Actions minutes/month ",
+        "500MB of Packages storage",
+        "Community support"
+    ],
+    "pro": [
+        "Protected branches on all repos",
+        "Access to Codespaces",
+        "Multiple reviewers in pull requests",
+        "Required status checks",
+        "Code owners",
+        "Required reviewers",
+        "Pages for static website hosting",
+        "Web-based support"
+    ]
+}

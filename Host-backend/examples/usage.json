@@ -1,0 +1,31 @@
+
+    {
+        "user_id": 1,
+        "actions": {
+            "total_min": 20000,
+            "ubuntu": {
+                "core": 2,
+                "spend": null
+            },
+            "windows": {
+                "core": 2,
+                "spend": null
+            },
+            "macOS": {
+                "core": 3,
+                "spend": null
+            }
+        },
+        "packages": {
+            "total": 1,
+            "Included": 0,
+            "Paid": 0,
+            "estimate_price": 0.5
+        },
+        "storage": {
+            "total": 0.5,
+            "Included": 0.0,
+            "Paid": 0.0,
+            "estimate_price": 0.25
+        }
+    }

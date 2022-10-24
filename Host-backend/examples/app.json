@@ -1,0 +1,380 @@
+[
+    {
+        "id": 1,
+        "slug": "circleci",
+        "name": "CircleCi",
+        "logo": "/images/item.png",
+        "categories": [
+            "Continuous",
+            "integrationMobile",
+            "CIGitHub",
+            "Enterprise",
+            "FreeFree"
+        ],
+        "supported_languages": [
+            "C++",
+            "Clojure",
+            "Go",
+            "Haskell",
+            "Javascript",
+            "Object-C",
+            "PHP",
+            "Python",
+            "Ruby",
+            "Scala"
+        ],
+        "developer_links": [
+            {
+                "title": "Support",
+                "link": "http://localhost"
+            },
+            {
+                "title": "Privacy Policy",
+                "link": "http://localhost"
+            },
+            {
+                "title": "Terms of Service",
+                "link": "http://localhost"
+            }
+        ],
+        "report_abuse": "http://localhost",
+        "customers": [
+            {
+                "image": "/images/twitter.png",
+                "link": "https://twitter.com/"
+            },
+            {
+                "image": "/images/github.png",
+                "link": "https://github.com"
+            }
+        ],
+        "images": [
+            "/images/c1.webp",
+            "/images/c2.webp",
+            "/images/c3.webp",
+            "/images/c4.webp",
+            "/images/c5.webp"
+        ],
+        "data": [
+            {
+                "title": "About CircleCI",
+                "desc": "The world’s best software teams deliver quality code, confidently, with CircleCI."
+            },
+            {
+                "title": "Get started in no time",
+                "desc": "CircleCI’s free plan offers more build minutes than any free plan out there. Up to 6,000 build minutes/month and 30 jobs at a time."
+            },
+            {
+                "title": "Most customizable environments of any CI/CD provider",
+                "desc": "Widest choice to customize operating systems, CPUs, GPUs, memory and images for each job. Build for Docker, Windows, Linux, Arm and macOS or build on your own compute with runners."
+            },
+            {
+                "title": "Fastest build times on the market",
+                "desc": "Build times on CircleCI are 70% faster on average than competitors"
+            },
+            {
+                "title": "The highest level of compliance and certification",
+                "desc": "CircleCI is the only CI/CD platform that’s FedRAMP certified and SOC 2 Type II compliant. Built-in features like audit logs, restricted contexts, and LDAP give you complete control of your code."
+            },
+            {
+                "title": "Greater visibility throughout software development process",
+                "desc": "CircleCI’s Insights dashboard gives visibility into workflow status, duration, credit consumption, and costs, for free."
+            },
+            {
+                "title": "SSH debugging",
+                "desc": "Securely access any job to CircleCI to debug builds and tests in real time."
+            },
+            {
+                "title": "Auto-test splitting",
+                "desc": "Shorten the feedback loop by automatically splitting your tests across parallel instances of the same job."
+            },
+            {
+                "title": "Now supporting GitHub Checks",
+                "desc": "See the status of your CircleCI workflows and related jobs all within the GitHub UI. Enable this feature in your CircleCI organization settings for new and existing accounts."
+            }
+        ],
+        "domain": "circleci.com",
+        "Pricing": [
+            {
+                "id": 1,
+                "title": "Free",
+                "desc": "Free for both open source and private projects",
+                "price": "$0",
+                "setup": [
+                    "Up to 6,000 build minutes per month",
+                    "Largest selection: Build for Docker, Windows, Linux, Arm, and macOS or on your own compute with self-hosted runners",
+                    "Build better: Choose the right resource class size (S⁠–⁠L) to go fast and maximize your build minutes",
+                    "Fast: Run up to 30 jobs at a time and run your tests in parallel using test splitting"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "slug": "codefactor",
+        "name": "CodeFactor",
+        "logo": "/images/codefactor.png",
+        "categorizes": [
+            "Code quality",
+            "Recently added",
+            "Free Trials",
+            "Free",
+            "Paid"
+        ],
+        "supported_languages": [
+            "C#",
+            "C++",
+            "Css",
+            "Go",
+            "Haskell",
+            "Javascript",
+            "Object-C",
+            "PHP",
+            "Python",
+            "Ruby",
+            "Scala"
+        ],
+        "developer_links": [
+            {
+                "title": "Support",
+                "link": "http://localhost"
+            },
+            {
+                "title": "Documentation",
+                "link": "http://localhost"
+            },
+            {
+                "title": "Privacy Policy",
+                "link": "http://localhost"
+            },
+            {
+                "title": "Terms of Service",
+                "link": "http://localhost"
+            }
+        ],
+        "report_abuse": "http://localhost",
+        "customers": [
+            {
+                "image": "/images/apple.png",
+                "link": "https://www.apple.com/"
+            },
+            {
+                "image": "/images/facebook.png",
+                "link": "https://facebook.com"
+            }
+        ],
+        "images": [
+            "/images/cf1.webp",
+            "/images/cf2.webp",
+            "/images/cf3.webp",
+            "/images/cf4.webp",
+            "/images/cf5.webp"
+        ],
+        "data": [
+            {
+                "title": "Ensure that your code meets quality standards",
+                "desc": "CodeFactor instantly performs Code Review with every GitHub Commit or PR. Zero setup time. Get actionable feedback within seconds. Customize rules, get refactoring tips and ignore irrelevant issues."
+            },
+            {
+                "title": "Languages",
+                "desc": "Bash, C, C#, C++, CoffeeScript, CSS, Dockerfile, Go, Groovy, Java, JS, Kotlin, Less, PHP, Python, Ruby, Scala, SCSS, Sugar SS, Swift, TypeScript and YAML."
+            },
+            {
+                "title": "Autofix",
+                "desc": "Autofix certain reported issues on-demand or automatically."
+            },
+            {
+                "title": "For developers by developers.",
+                "desc": "Integrate in seconds. Toggle inspection for any branch on the fly. Get actionable refactoring tips. We use it ourselves."
+            },
+            {
+                "title": "Get the big picture. Identify HotSpots.",
+                "desc": "Track entire code base, raise visibility and understand code quality of the whole project. Dig into commits and the most problematic files."
+            },
+            {
+                "title": "Greater visibility throughout software development process",
+                "desc": "CircleCI’s Insights dashboard gives visibility into workflow status, duration, credit consumption, and costs, for free."
+            },
+            {
+                "title": "Integrate into your workflow",
+                "desc": "See actionable results within GitHub pull request. Comment or open a GitHub Issue directly from CodeFactor's Code Review page. Keep team updated via Slack integration."
+            },
+            {
+                "title": "Manage quality over time.",
+                "desc": "Be a part of a great team, seize the leaderboard."
+            }
+        ],
+        "domain": "codefactor.io",
+        "Pricing": [
+            {
+                "id": 1,
+                "title": "Community",
+                "desc": "Unlimited public repos. Unlimited users.",
+                "price": "$0",
+                "setup": [
+                    "Lightning-fast analysis",
+                    "Unlimited public repos",
+                    "Unlimited users"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Pro MAX (5 private repos) Free Trial",
+                "desc": "5 private, unlimited public repos. Unlimited users.",
+                "price": "$27",
+                "setup": [
+                    "Lightning-fast analysis",
+                    "5 private, unlimited public repos",
+                    "Unlimited users",
+                    "Premium support"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Pro MAX (10 private repos) Free Trial",
+                "desc": "10 private, unlimited public repos. Unlimited users.",
+                "price": "$54",
+                "setup": [
+                    "Lightning-fast analysis",
+                    "10 private, unlimited public repos",
+                    "Unlimited users",
+                    "Premium support"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Pro MAX (20 private repos) Free Trial",
+                "desc": "20 private, unlimited public repos. Unlimited users.",
+                "price": "$109",
+                "setup": [
+                    "Lightning-fast analysis",
+                    "20 private, unlimited public repos",
+                    "Unlimited users",
+                    "Premium support"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Pro MAX (50 private repos) Free Trial",
+                "desc": "50 private, unlimited public repos. Unlimited users.",
+                "price": "$274",
+                "setup": [
+                    "Lightning-fast analysis",
+                    "50 private, unlimited public repos",
+                    "Unlimited users",
+                    "Premium support"
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Pro MAX (100 private repos) Free Trial",
+                "desc": "100 private, unlimited public repos. Unlimited users.",
+                "price": "$549",
+                "setup": [
+                    "Lightning-fast analysis",
+                    "100 private, unlimited public repos",
+                    "Unlimited users",
+                    "Premium support"
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Pro MAX (200 private repos) Free Trial",
+                "desc": "200 private, unlimited public repos. Unlimited users.",
+                "price": "$1,099",
+                "setup": [
+                    "Lightning-fast analysis",
+                    "200 private, unlimited public repos",
+                    "Unlimited users",
+                    "Premium support"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "wordpress",
+        "name": "Wordpress",
+        "logo": "/images/apps/nextcloud-icon.png",
+        "categorizes": [
+            "CMS",
+            "Blog",
+            "CIGitHub",
+            "Something"
+        ],
+        "supported_languages": [
+            "PHP",
+            "aom"
+        ],
+        "developer_links": [
+            {
+                "title": "Support",
+                "link": "http://localhost"
+            },
+            {
+                "title": "Documentation",
+                "link": "http://localhost"
+            }
+        ],
+        "report_abuse": "http://localhost",
+        "customers": [
+            {
+                "image": "/images/wordpress.png",
+                "link": "wordpress.com"
+            }
+        ],
+        "images": [
+            "/images/avatar-1-55x55.png",
+            "/images/c2.webp",
+            "/images/c3.webp",
+            "/images/c4.webp",
+            "/images/c5.webp"
+        ],
+        "data": [
+            {
+                "title": "About Worpress",
+                "desc": "The world’s most popular CMS deliver quality code, confidently, with CircleCI."
+            },
+            {
+                "title": "Get started in no time",
+                "desc": "Wordpress’s free plan offers out there. Up to 6,000 build minutes/month and 30 jobs at a time."
+            },
+            {
+                "title": "Fastest build times on the market",
+                "desc": "Build times on CircleCI are 70% faster on average than competitors"
+            },
+            {
+                "title": "The highest level of compliance and certification",
+                "desc": "CircleCI is the only CI/CD platform that’s FedRAMP certified and SOC 2 Type II compliant. Built-in features like audit logs, restricted contexts, and LDAP give you complete control of your code."
+            },
+            {
+                "title": "Greater visibility throughout software development process",
+                "desc": "CircleCI’s Insights dashboard gives visibility into workflow status, duration, credit consumption, and costs, for free."
+            },
+            {
+                "title": "SSH debugging",
+                "desc": "Securely access any job to CircleCI to debug builds and tests in real time."
+            },
+            {
+                "title": "Now supporting GitHub Checks",
+                "desc": "See the status of your CircleCI workflows and related jobs all within the GitHub UI. Enable this feature in your CircleCI organization settings for new and existing accounts."
+            }
+        ],
+        "domain": "worpress.com",
+        "Pricing": [
+            {
+                "id": 1,
+                "title": "Not Free man",
+                "desc": "Free for both open source and private projects",
+                "price": "$5",
+                "setup": [
+                    "Up to you per month",
+                    "Up to none minutes per month",
+                    "Largest selection: Build for Docker, Windows, Linux, Arm, and macOS or on your own compute with self-hosted runners",
+                    "Build better: Choose the right resource class size (S⁠–⁠L) to go fast and maximize your build minutes",
+                    "Fast: Run up to 30 jobs at a time and run your tests in parallel using test splitting"
+                ]
+            }
+        ]
+    }
+]

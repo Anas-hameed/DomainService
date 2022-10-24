@@ -1,0 +1,12 @@
+{
+    "realm": "deploy",
+    "auth-server-url": "https://auth.disdicilo.it/auth/",
+    "ssl-required": "none",
+    "resource": "next-node",
+    "verify-token-audience": true,
+    "credentials": {
+      "secret": "a94721c9-5ebd-4b59-8a52-676bdf61bc09"
+    },
+    "confidential-port": 0,
+    "policy-enforcer": {}
+  }

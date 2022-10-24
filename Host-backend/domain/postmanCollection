@@ -1,0 +1,465 @@
+{
+	"info": {
+		"_postman_id": "3e0a0cf4-ebff-4c6b-8aaf-564b7e55f666",
+		"name": "NameCheap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23722871"
+	},
+	"item": [
+		{
+			"name": "tldPricing",
+			"item": [
+				{
+					"name": "AddTlDPrincing",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"priority\":0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/tld_price",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_price"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTldPriceById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tld_price/63417d4d7a95f35243b0b3d6",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_price",
+								"63417d4d7a95f35243b0b3d6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTidPricing",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tld_price",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_price"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateTIdPricing",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"priority\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/tld_price",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_price"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "gettldPricing",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tld_price?priority=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_price"
+							],
+							"query": [
+								{
+									"key": "priority",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "tldPeriority",
+			"item": [
+				{
+					"name": "gettldPeriority",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tld_periority",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_periority"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addtldPeriority",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tld\":\"com\",\r\n    \"priority\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/tld_periority",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_periority"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updatetldPeriority",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tld_periority/6340616104c02c347da0508b",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_periority",
+								"6340616104c02c347da0508b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTldPeriorityRecord",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tld_periority/634062e0ecd9917393a2ac02",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_periority",
+								"634062e0ecd9917393a2ac02"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "loadData",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tld_periority/loadData",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tld_periority",
+								"loadData"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DnsRecord",
+			"item": [
+				{
+					"name": "getdnsHost",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"domainName\":\"codeblinkkk.net\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/dns_record?domainName=codeblinkkk.net",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"dns_record"
+							],
+							"query": [
+								{
+									"key": "domainName",
+									"value": "codeblinkkk.net"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postdnsHost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"domainName\":\"codeblinkkk.net\",\r\n    \"RecordType\":\"CNAME\",\r\n    \"HostName\":\"codeblinkkk4.com\",\r\n    \"Address\":\"old4.example.com.\",\r\n    \"MXpref\":\"10\",\r\n    \"TTL\":1800\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/dns_record",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"dns_record"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateDnsRecord",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"domainName\":\"codeblinkkk.net\",\r\n    \"Address\":\"old5.example.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/dns_record/1013724",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"dns_record",
+								"1013724"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_dns_host",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"domainName\":\"codeblinkkk.net\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/dns_record/1013597",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"dns_record",
+								"1013597"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RegisterDomain",
+			"item": [
+				{
+					"name": "registerDomain",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"domainName\":\"codeblinkkk.net\",\r\n    \"Years\":1,\r\n    \"RegistrantFirstName\":\"Anas\",\r\n    \"RegistrantLastName\":\"Hameed\",\r\n    \"RegistrantAddress1\":\"Noor pur\",\r\n    \"RegistrantCity\":\"Islamabad\",\r\n    \"RegistrantStateProvince\":\"federal\",\r\n    \"RegistrantPostalCode\":\"45320\",\r\n    \"RegistrantCountry\":\"pakistan\",\r\n    \"RegistrantPhone\":\"051.0404040440\",\r\n    \"RegistrantEmailAddress\":\"anashameed159@gmail.com\",\r\n\r\n    \"TechFirstName\":\"Anas\",\r\n    \"TechLastName\":\"Hameed\",\r\n    \"TechAddress1\":\"Noor pur\",\r\n    \"TechCity\":\"Islamabad\",\r\n    \"TechStateProvince\":\"federal\",\r\n    \"TechPostalCode\":\"45320\",\r\n    \"TechCountry\":\"pakistan\",\r\n    \"TechPhone\":\"0510404040440\",\r\n    \"TechEmailAddress\":\"anashameed159@gmail.com\",\r\n\r\n    \"AdminFirstName\":\"Anas\",\r\n    \"AdminLastName\":\"Hameed\",\r\n    \"AdminAddress1\":\"Noor pur\",\r\n    \"AdminCity\":\"Islamabad\",\r\n    \"AdminStateProvince\":\"federal\",\r\n    \"AdminPostalCode\":\"45320\",\r\n    \"AdminCountry\":\"pakistan\",\r\n    \"AdminPhone\":\"0510404040440\",\r\n    \"AdminEmailAddress\":\"anashameed159@gmail.com\",\r\n\r\n    \"AuxBillingFirstName\":\"Anas\",\r\n    \"AuxBillingLastName\":\"Hameed\",\r\n    \"AuxBillingAddress1\":\"Noor pur\",\r\n    \"AuxBillingCity\":\"Islamabad\",\r\n    \"AuxBillingStateProvince\":\"federal\",\r\n    \"BillingPostalCode\":\"45320\",\r\n    \"AuxBillingCountry\":\"pakistan\",\r\n    \"AuxBillingPhone\":\"0510404040440\",\r\n    \"AuxBillingEmailAddress\":\"anashameed159@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/register_domain",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"register_domain"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SearchTld",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"domain\":\"wonderfuldomain.biz\",\r\n    \"priority\":\"0\",\r\n    \"duration\":1,\r\n    \"ActionType\":\"REGISTER\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/search?domain=wonderfuldomain.biz&priority=0&duration=1&ActionType=REGISTER",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "domain",
+							"value": "wonderfuldomain.biz"
+						},
+						{
+							"key": "priority",
+							"value": "0"
+						},
+						{
+							"key": "duration",
+							"value": "1"
+						},
+						{
+							"key": "ActionType",
+							"value": "REGISTER"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjckJsS25TSzgzSGU1cUFYY2xrU29LSzBxeEdhZFVORUZyUjFHWURDS2VzIn0.eyJleHAiOjE2NjU4NzU3NDcsImlhdCI6MTY2NTg0Mjc4MCwiYXV0aF90aW1lIjoxNjY1ODM5NzQ3LCJqdGkiOiI5Yjc0N2RmYy1mZmQzLTRhYjktYmY2ZC1lNjI2MWRiMTI5ODIiLCJpc3MiOiJodHRwczovL2F1dGguZGlzZGljaWxvLml0L2F1dGgvcmVhbG1zL2RlcGxveSIsImF1ZCI6WyJyZWFsbS1tYW5hZ2VtZW50IiwibmV4dC1ub2RlIiwibm9kZWpzIiwiYWNjb3VudCJdLCJzdWIiOiI4YzgzOGVkMy00NWZiLTRjMjktOWU1Yy1iODA2YmRjNDFkZDIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJuZXh0LWF1dGgiLCJub25jZSI6IjNlZmVhYzBiLWQ0YjEtNDQxOC04NDJmLTY3ZWRjZmIxNGQzYyIsInNlc3Npb25fc3RhdGUiOiIyNGYyOTdhYy05MDQyLTQ4MjctYTQwMS01Yjc0N2ZjNTk0MzYiLCJhY3IiOiIwIiwiYWxsb3dlZC1vcmlnaW5zIjpbIioiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVzZXJfcm9sZSIsImFkbWluX3JvbGUiLCJvZmZsaW5lX2FjY2VzcyIsInN0YWZmX3JvbGUiLCJkZWZhdWx0LXJvbGVzLWRlcGxveSIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsicmVhbG0tbWFuYWdlbWVudCI6eyJyb2xlcyI6WyJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsInZpZXctcmVhbG0iLCJtYW5hZ2UtaWRlbnRpdHktcHJvdmlkZXJzIiwiaW1wZXJzb25hdGlvbiIsInJlYWxtLWFkbWluIiwiY3JlYXRlLWNsaWVudCIsIm1hbmFnZS11c2VycyIsInF1ZXJ5LXJlYWxtcyIsInZpZXctYXV0aG9yaXphdGlvbiIsInF1ZXJ5LWNsaWVudHMiLCJxdWVyeS11c2VycyIsIm1hbmFnZS1ldmVudHMiLCJtYW5hZ2UtcmVhbG0iLCJ2aWV3LWV2ZW50cyIsInZpZXctdXNlcnMiLCJ2aWV3LWNsaWVudHMiLCJtYW5hZ2UtYXV0aG9yaXphdGlvbiIsIm1hbmFnZS1jbGllbnRzIiwicXVlcnktZ3JvdXBzIl19LCJuZXh0LW5vZGUiOnsicm9sZXMiOlsiYWRtaW4iLCJzdGFmZiIsInVzZXIiXX0sIm5vZGVqcyI6eyJyb2xlcyI6WyJhZG1pbiIsInVzZXIiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiIyNGYyOTdhYy05MDQyLTQ4MjctYTQwMS01Yjc0N2ZjNTk0MzYiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYWRkcmVzcyI6e30sIm5hbWUiOiJib2IgcG90b2siLCJncm91cHMiOlsidXNlcl9yb2xlIiwiYWRtaW5fcm9sZSIsIm9mZmxpbmVfYWNjZXNzIiwic3RhZmZfcm9sZSIsImRlZmF1bHQtcm9sZXMtZGVwbG95IiwidW1hX2F1dGhvcml6YXRpb24iXSwicHJlZmVycmVkX3VzZXJuYW1lIjoiYWRtaW4iLCJnaXZlbl9uYW1lIjoiYm9iIiwiZmFtaWx5X25hbWUiOiJwb3RvayIsImVtYWlsIjoidHJlQGdtYWlsLmNvbSJ9.CtrVpxv1Kb4HbDVPPXHvNxgFvr19LT6c6ir-g-XL9frcUBV6ubm9fvZeCeP4UWGsNXmiRYhHvxfFh_NEbAfXB9y8WoTD7ToPacdTpPT_DBnbx4nE0aOkCA_VQ0Iqb6xbFakyAPLjtU89T5hQ4a79ezAbeJ6YyqVbe6S-G4ktkT0hyeYGhMoKkHtntZ5GlOJdtYxZBjdDbSfOccqy4gTM7j3OS5hZ91-NV9xiyZW0LOfZbhA4OYvwWCPMnaO2MXQtYprxOMb2nBYCiKkpMOuUloPMgTNxNAAPA9qeOoptvH3JDrCGj_ZKbh1H_5ECcC5LQ_6fkoF0sVRvUoqLpZ8NNg",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:4000/api",
+			"type": "string"
+		}
+	]
+}

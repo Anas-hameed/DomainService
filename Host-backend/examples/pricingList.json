@@ -1,0 +1,129 @@
+[
+    {
+        "slug": "circleci",
+        "name": "CircleCi",
+        "isp": true,
+        "logo": "/images/item.png",
+        "id": 1,
+        "title": "Free",
+        "desc": "Free for both open source and private projects",
+        "price": "$0",
+        "setup": [
+            "Up to 6,000 build minutes per month",
+            "Largest selection: Build for Docker, Windows, Linux, Arm, and macOS or on your own compute with self-hosted runners",
+            "Build better: Choose the right resource class size (S⁠–⁠L) to go fast and maximize your build minutes",
+            "Fast: Run up to 30 jobs at a time and run your tests in parallel using test splitting"
+        ]
+    },
+    {
+        "name": "CodeFactor",
+        "isp": true,
+        "logo": "/images/codefactor.png",
+        "slug": "codefactor",
+        "id": 1,
+        "title": "Community",
+        "desc": "Unlimited public repos. Unlimited users.",
+        "price": "$0",
+        "setup": [
+            "Lightning-fast analysis",
+            "Unlimited public repos",
+            "Unlimited users"
+        ]
+    },
+    {
+        "name": "CodeFactor",
+        "isp": true,
+        "logo": "/images/codefactor.png",
+        "slug": "codefactor",
+        "id": 2,
+        "title": "Pro MAX (5 private repos) Free Trial",
+        "desc": "5 private, unlimited public repos. Unlimited users.",
+        "price": "$27",
+        "setup": [
+            "Lightning-fast analysis",
+            "5 private, unlimited public repos",
+            "Unlimited users",
+            "Premium support"
+        ]
+    },
+    {
+        "name": "CodeFactor",
+        "isp": true,
+        "logo": "/images/codefactor.png",
+        "slug": "codefactor",
+        "id": 3,
+        "title": "Pro MAX (10 private repos) Free Trial",
+        "desc": "10 private, unlimited public repos. Unlimited users.",
+        "price": "$54",
+        "setup": [
+            "Lightning-fast analysis",
+            "10 private, unlimited public repos",
+            "Unlimited users",
+            "Premium support"
+        ]
+    },
+    {
+        "name": "CodeFactor",
+        "isp": true,
+        "logo": "/images/codefactor.png",
+        "slug": "codefactor",
+        "id": 4,
+        "title": "Pro MAX (20 private repos) Free Trial",
+        "desc": "20 private, unlimited public repos. Unlimited users.",
+        "price": "$109",
+        "setup": [
+            "Lightning-fast analysis",
+            "20 private, unlimited public repos",
+            "Unlimited users",
+            "Premium support"
+        ]
+    },
+    {
+        "name": "CodeFactor",
+        "isp": true,
+        "logo": "/images/codefactor.png",
+        "slug": "codefactor",
+        "id": 5,
+        "title": "Pro MAX (50 private repos) Free Trial",
+        "desc": "50 private, unlimited public repos. Unlimited users.",
+        "price": "$274",
+        "setup": [
+            "Lightning-fast analysis",
+            "50 private, unlimited public repos",
+            "Unlimited users",
+            "Premium support"
+        ]
+    },
+    {
+        "name": "CodeFactor",
+        "isp": true,
+        "logo": "/images/codefactor.png",
+        "slug": "codefactor",
+        "id": 6,
+        "title": "Pro MAX (100 private repos) Free Trial",
+        "desc": "100 private, unlimited public repos. Unlimited users.",
+        "price": "$549",
+        "setup": [
+            "Lightning-fast analysis",
+            "100 private, unlimited public repos",
+            "Unlimited users",
+            "Premium support"
+        ]
+    },
+    {
+        "name": "CodeFactor",
+        "isp": true,
+        "logo": "/images/codefactor.png",
+        "slug": "codefactor",
+        "id": 7,
+        "title": "Pro MAX (200 private repos) Free Trial",
+        "desc": "200 private, unlimited public repos. Unlimited users.",
+        "price": "$1,099",
+        "setup": [
+            "Lightning-fast analysis",
+            "200 private, unlimited public repos",
+            "Unlimited users",
+            "Premium support"
+        ]
+    }
+]
